@@ -1,0 +1,99 @@
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="connect-src">
+            <values>
+                <value id="https://api.reviews.co.uk/" type="host">https://api.reviews.co.uk/</value>
+                <value id="https://stats.g.doubleclick.net/" type="host">https://stats.g.doubleclick.net/</value>
+                <value id="amcglobal.sc.omtrdc.net" type="host">amcglobal.sc.omtrdc.net</value>
+                <value id="https://www.google-analytics.com/analytics.js" type="host">https://www.google-analytics.com/analytics.js</value>
+                <value id="dpm.demdex.net" type="host">dpm.demdex.net</value>
+                <value id="www.googleadservices.com" type="host">www.googleadservices.com</value>
+                <value id="analytics.google.com" type="host">analytics.google.com</value>
+                <value id="https://api.reviews.co.uk/*" type="host">https://api.reviews.co.uk/*</value>
+            </values>
+        </policy>
+        <policy id="script-src">
+            <values>
+                <value id="https://widget.reviews.co.uk/rich-snippet-reviews-widgets/dist.js" type="host">https://widget.reviews.co.uk/rich-snippet-reviews-widgets/dist.js</value>
+                <value id="www.apptrian.com" type="host">www.apptrian.com</value>
+                <value id="https://static.hotjar.com/c/hotjar-1268630.js" type="host">https://static.hotjar.com/c/hotjar-1268630.js</value>
+                <value id="widget.freshworks.com" type="host">widget.freshworks.com</value>
+                <value id="https://script.hotjar.com/modules.ea0a6d6a741d5de8308e.js" type="host">https://script.hotjar.com/modules.ea0a6d6a741d5de8308e.js</value>
+                <value id="https://script.hotjar.com/*" type="host">https://script.hotjar.com/*</value>
+                <value id="js.braintreegateway.com" type="host">js.braintreegateway.com</value>
+                <value id="assets.braintreegateway.com" type="host">assets.braintreegateway.com</value>
+                <value id="api.sandbox.braintreegateway.com" type="host">api.sandbox.braintreegateway.com</value>
+                <value id="client-analytics.braintreegateway.com" type="host">client-analytics.braintreegateway.com</value>
+                <value id="*.paypal.com" type="host">*.paypal.com</value>
+                <value id="*.tawk.to" type="host">*.tawk.to</value>
+                <value id="cdn.jsdelivr.net" type="host">cdn.jsdelivr.net</value>
+                <value id="client-analytics.sandbox.braintreegateway.com" type="host">client-analytics.sandbox.braintreegateway.com</value>
+                <value id="api.braintreegateway.com" type="host">api.braintreegateway.com</value>
+                <value id="c.paypal.com" type="host">c.paypal.com</value>
+                <value id="s.ytimg.com" type="host">s.ytimg.com</value>
+                <value id="www.googleapis.com" type="host">www.googleapis.com</value>
+                <value id="www.vimeo.com" type="host">www.vimeo.com</value>
+                <value id="vimeo.com" type="host">vimeo.com</value>
+                <value id="*.youtube.com" type="host">*.youtube.com</value>
+                <value id="https://www.gstatic.com/recaptcha/" type="host">https://www.gstatic.com/recaptcha/</value>
+                <value id="*.vimeocdn.com" type="host">*.vimeocdn.com</value>
+                <value id="https://www.google.com/recaptcha/" type="host">https://www.google.com/recaptcha/</value>
+                <value id="pay.google.com" type="host">pay.google.com</value>
+                <value id="m2epro.freshdesk.com" type="host">m2epro.freshdesk.com</value>
+                <value id="assets.adobedtm.com" type="host">assets.adobedtm.com</value>
+                <value id="*.adobe.com" type="host">*.adobe.com</value>
+                <value id="www.googleadservices.com" type="host">www.googleadservices.com</value>
+                <value id="www.google-analytics.com" type="host">www.google-analytics.com</value>
+                <value id="googleads.g.doubleclick.net" type="host">googleads.g.doubleclick.net</value>
+                <value id="analytics.google.com" type="host">analytics.google.com</value>
+                <value id="www.googletagmanager.com" type="host">www.googletagmanager.com</value>
+                <value id="geostag.cardinalcommerce.com" type="host">geostag.cardinalcommerce.com</value>
+                <value id="1eafstag.cardinalcommerce.com" type="host">1eafstag.cardinalcommerce.com</value>
+                <value id="geoapi.cardinalcommerce.com" type="host">geoapi.cardinalcommerce.com</value>
+                <value id="1eafapi.cardinalcommerce.com" type="host">1eafapi.cardinalcommerce.com</value>
+                <value id="songbird.cardinalcommerce.com" type="host">songbird.cardinalcommerce.com</value>
+                <value id="includestest.ccdc02.com" type="host">includestest.ccdc02.com</value>
+                <value id="www.paypal.com" type="host">www.paypal.com</value>
+                <value id="www.sandbox.paypal.com" type="host">www.sandbox.paypal.com</value>
+                <value id="www.paypalobjects.com" type="host">www.paypalobjects.com</value>
+                <value id="t.paypal.com" type="host">t.paypal.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="http://gbwatch.weboven.online/*" type="host">http://gbwatch.weboven.online/*</value>
+                <value id="https://gbwatchshop.com" type="host">https://gbwatchshop.com</value>
+                <value id="https://gbwatchshop.com/*" type="host">https://gbwatchshop.com/*</value>
+                <value id="widgets.magentocommerce.com" type="host">widgets.magentocommerce.com</value>
+                <value id="*.adobe.com" type="host">*.adobe.com</value>
+                <value id="cm.everesttech.net" type="host">cm.everesttech.net</value>
+                <value id="dpm.demdex.net" type="host">dpm.demdex.net</value>
+                <value id="amcglobal.sc.omtrdc.net" type="host">amcglobal.sc.omtrdc.net</value>
+                <value id="assets.adobedtm.com" type="host">assets.adobedtm.com</value>
+            </values>
+        </policy>
+        <policy id="frame-ancestors">
+            <values>
+                <value id="*.reviews.co.uk" type="host">*.reviews.co.uk</value>
+                <value id="*.reviews.io" type="host">*.reviews.io</value>
+                <value id="pingdom.com" type="host">pingdom.com</value>
+                <value id="widget.reviews.co.uk" type="host">widget.reviews.co.uk</value>
+                <value id="http://*.pingdom.com" type="host">http://*.pingdom.com</value>
+                <value id="https://*.pingdom.com" type="host">https://*.pingdom.com</value>
+                <value id="https://widget.reviews.co.uk/" type="host">https://widget.reviews.co.uk/</value>
+                <value id="https://gbwatchshop.com" type="host">https://gbwatchshop.com</value>
+                <value id="https://*.gbwatchshop.com" type="host">https://*.gbwatchshop.com</value>
+                <value id="http://gbwatchshop.com" type="host">http://gbwatchshop.com</value>
+                <value id="http://*.gbwatchshop.com" type="host">http://*.gbwatchshop.com</value>
+                <value id="localhost:*" type="host">localhost:*</value>
+                <value id="https://widget.reviews.co.uk/" type="host">https://widget.reviews.co.uk/</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="https://vars.hotjar.com/" type="host">https://vars.hotjar.com/</value>
+                <value id="https://widget.reviews.co.uk/" type="host">https://widget.reviews.co.uk/</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
